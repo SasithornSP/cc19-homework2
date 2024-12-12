@@ -1,0 +1,96 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   }
+   
+body { 
+   /* background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fit/w_828,h_466,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs'); */
+   height: 100vh;
+   background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url('./photonet/bg.jpg') ;
+   /* linear-gradient(0deg, rgba(0, 0, 0, 0.90) 4.91%, rgba(0, 0, 0, 0.30) 47.78%); */
+   background-repeat: no-repeat;
+   background-size:cover ;
+   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+   /* linear-gradien:(to bottom, rgba(0, 0, 0, 0.733), rgba(56, 56, 55, 0.881)) */
+}
+img {
+   width: 200px;
+   height: 100px;
+}
+header {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 150px;
+}
+nav {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: center;
+   gap: 16px;
+
+}
+.signin button {
+   color:white ;
+   background-color: red;
+   border:none;
+   padding: 8px;
+   border-radius: 4px;
+}
+select {
+   width: 100px;
+   padding: 8px;
+   background-color: black;
+   border: 1px solid white;
+   color: white;
+   border-radius: 4px;
+  
+}
+.container {
+
+   min-height:80vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 16px;
+   color: white;
+}
+.p1 {
+font-size: 50px ;
+font-weight: bold;
+
+}
+.p2,.p3{
+   font-size: 20px;
+}
+.p3 {
+   font-size: 18px;
+}
+.e {
+   display: flex;
+   gap: 10px;
+   
+   
+}
+/* .g {
+   border: 1px solid red;
+} */
+.e button {
+background-color: red;
+padding: 8px;
+border-radius: 4px;
+color: white;
+border-color: red;
+}
+.e input {
+background-color: black;
+color: white;
+opacity: 0.7;
+padding: 6px;
+}
+
+
